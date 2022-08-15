@@ -1,0 +1,50 @@
+.sliderPictures {
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.filmCard {
+    position: relative;
+    transition: 1s;
+}
+
+.filmCardMini {
+    width: 100%;
+}
+
+.filmCardMini img {
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.cardAbsolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+
+}
+
+.filmCard:hover .cardAbsolute {
+    display: inline-block;
+    transition: 1s;
+
+}
+
+.filmCard:hover {
+    transform: scale(1.1);
+}
+
+.tugma{
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+}
